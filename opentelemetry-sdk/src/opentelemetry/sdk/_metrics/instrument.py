@@ -99,7 +99,7 @@ class Counter(_Synchronous, APICounter):
         )
 
 
-class UpDownCounter(_Synchronous, APIUpDownCounter):
+class UpDownCounter(_Synchronous, APICounter):
     def add(
         self, amount: Union[int, float], attributes: Dict[str, str] = None
     ):
